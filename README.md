@@ -1,5 +1,4 @@
-# React blog 
-![Alt git shocking](https://imgur.com/gallery/sr8YItd)
+# React blog made with React
 ![Alt git shocking](https://media.giphy.com/media/jXrV48qWjn1Zv7Kp5Z/giphy.gif)
 # Getting Started with Create React App
 
