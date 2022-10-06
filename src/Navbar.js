@@ -3,7 +3,7 @@
 export default function Navbar() {
     return (
         <nav className="navbar">
-            <h1>The dojo Blog</h1>
+            <h1>The frog blog</h1>
             <div className="links">
                 <a href="/">Home</a>
                 <a id="new-blog" className="new-blog" href="/create" style={{
