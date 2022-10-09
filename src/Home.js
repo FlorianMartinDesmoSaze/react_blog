@@ -8,6 +8,9 @@ const Home = () => {
         { title: "Donald Trump was actually a woman", body: "Somewhere in the wild, the beast is waiting to feed.", author: "Oliver Twist", id: 3 }
     ]);
 
+    const [name, setName] = useState("Takeshi");
+
+ 
     const handleDelete = (id) => {
         const newBlogs = blogs.filter(blog => blog.id !== id);
         setBlogs(newBlogs);
@@ -15,11 +18,15 @@ const Home = () => {
 
     useEffect(() => {
         console.log('use effect log ', blogs);
-    })
+        console.log(name);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [name]);
 
     return (
         <div className="home">
             <BlogList blogs={blogs} title={"Blogs list"} handleDelete={handleDelete}/>
+            <p>{name}</p>
+            <button onClick={() => setName('Bob')}>Change name</button>
         </div>
     );
 }
