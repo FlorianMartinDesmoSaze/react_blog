@@ -1,5 +1,9 @@
 # React blog made with React
 ![Alt git shocking](https://media.giphy.com/media/jXrV48qWjn1Zv7Kp5Z/giphy.gif)
+
+# Simulate databse api with json file
+npx json-server --watch data/db.json --port 8000
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
